@@ -3,19 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package calculadora;
+package view;
+
+import operaciones.Operaciones;
 
 /**
  *
  * @author julio
  */
-public class Calculadora {
+public class NewMain {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Operaciones n=new Operaciones();
+        int total=n.Dividir(12, 4);
+        System.out.println(total);
     }
     
 }
